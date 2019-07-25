@@ -2,7 +2,7 @@ import galite from 'ga-lite'
 
 let loaded = false
 
-module.exports = (router, gaID) =>
+export default (router, gaID) =>
   router.afterEach(to => {
     if (loaded) {
       galite('set', 'page', to.fullPath)

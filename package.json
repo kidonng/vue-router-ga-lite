@@ -1,9 +1,11 @@
 {
   "name": "vue-router-ga-lite",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Integrate ga-lite with Vue Router",
   "main": "index.js",
-  "files": ["*.js"],
+  "files": [
+    "*.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kidonng/vue-router-ga-lite.git"
