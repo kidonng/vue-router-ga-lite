@@ -2,9 +2,9 @@
 
 <div align="center">
 
-[![npm](https://img.shields.io/npm/v/vue-router-ga-lite.svg?style=for-the-badge)](https://npm.im/vue-router-ga-lite)
-![npm](https://img.shields.io/npm/dt/vue-router-ga-lite.svg?style=for-the-badge)
-[![MIT licensed](https://img.shields.io/github/license/kidonng/vue-router-ga-lite.svg?style=for-the-badge)](LICENSE)
+[![Latest version](https://img.shields.io/npm/v/vue-router-ga-lite.svg?style=for-the-badge)](https://npm.im/vue-router-ga-lite)
+![npm downloads](https://img.shields.io/npm/dt/vue-router-ga-lite.svg?style=for-the-badge)
+[![License](https://img.shields.io/github/license/kidonng/vue-router-ga-lite.svg?style=for-the-badge)](LICENSE)
 
 </div>
 
