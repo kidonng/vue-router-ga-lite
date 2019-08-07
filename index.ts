@@ -1,8 +1,9 @@
+import VueRouter from 'vue-router'
 import galite from 'ga-lite'
 
 let loaded = false
 
-export default (router, gaID) =>
+export default (router: VueRouter, gaID: string) => {
   router.afterEach(to => {
     if (loaded) {
       galite('set', 'page', to.fullPath)
@@ -13,3 +14,4 @@ export default (router, gaID) =>
       galite('send', 'pageview')
     }
   })
+}
