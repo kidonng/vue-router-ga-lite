@@ -4,12 +4,12 @@ node_js: lts/*
 
 if: tag IS present
 
-install: true
-script: true
+script: yarn tsc
 
 deploy:
   provider: npm
   email: kidonng@gmail.com
   api_key: $npm_token
+  skip_cleanup: true
   on:
     tags: true
