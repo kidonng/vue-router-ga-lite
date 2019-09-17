@@ -1,22 +1,15 @@
 {
   "name": "vue-router-ga-lite",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Integrate ga-lite with Vue Router",
+  "license": "MIT",
+  "repository": "kidonng/vue-router-ga-lite",
+  "author": "Kid (https://github.com/kidonng)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kidonng/vue-router-ga-lite.git"
-  },
-  "author": "kidonng",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kidonng/vue-router-ga-lite/issues"
-  },
-  "homepage": "https://github.com/kidonng/vue-router-ga-lite#readme",
   "dependencies": {
     "@types/google.analytics": "^0.0.40",
     "ga-lite": "^2.0.1",
