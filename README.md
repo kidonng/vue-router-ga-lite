@@ -10,18 +10,32 @@ This package is a general replacement for packages like [@vuepress/plugin-google
 
 ## Install
 
+### Package Managers
+
 - `npm i vue-router-ga-lite`
 - `yarn add vue-router-ga-lite`
+
+### ES Modules
+
+- `import { ga } from 'https://cdn.jsdelivr.net/npm/vue-router-ga-lite'`
+- `import { ga } from 'https://unpkg.com/vue-router-ga-lite'`
 
 ## Usage
 
 ```js
+// Vue Router 4
+import { createRouter } from 'vue-router'
+import { ga } from 'vue-router-ga-lite'
+
+const router = createRouter()
+
+ga('UA-XXXXXXXXX-X', router)
+
+// Vue Router 3 (please use vue-router-ga-lite@0.2.0)
 import VueRouter from 'vue-router'
 import { ga } from 'vue-router-ga-lite'
 
-const router = new VueRouter({
-  // ...
-})
+const router = new VueRouter()
 
 ga('UA-XXXXXXXXX-X', router)
 ```

@@ -5,7 +5,8 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noEmitOnError": true,
+    // https://github.com/vuejs/vue-next/pull/1195
+    // "noEmitOnError": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
     "sourceMap": true,

@@ -1,6 +1,6 @@
 {
   "name": "vue-router-ga-lite",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Integrate ga-lite with Vue Router",
   "license": "MIT",
   "repository": "kidonng/vue-router-ga-lite",
@@ -11,17 +11,22 @@
     "dist"
   ],
   "dependencies": {
-    "@types/google.analytics": "^0.0.40",
-    "ga-lite": "^2.0.1",
-    "vue": "^2.6.10",
-    "vue-router": "^3.1.2"
+    "ga-lite": "^2.0.1"
   },
   "devDependencies": {
-    "prettier": "^1.18.2",
-    "typescript": "^3.5.3"
+    "@types/google.analytics": "^0.0.40",
+    "prettier": "2.0.5",
+    "typescript": "3.9.3",
+    "vue": "^3.0.0-beta.14",
+    "vue-router": "^4.0.0-alpha.12"
   },
   "prettier": {
     "semi": false,
     "singleQuote": true
+  },
+  "renovate": {
+    "extends": [
+      ":base"
+    ]
   }
 }
