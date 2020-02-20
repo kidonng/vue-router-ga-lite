@@ -25,6 +25,8 @@
     "singleQuote": true
   },
   "renovate": {
-    "extends": [":base"]
+    "extends": [
+      ":base"
+    ]
   }
 }
