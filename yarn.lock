@@ -21,7 +21,7 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@types/google.analytics@^0.0.40":
+"@types/google.analytics@0.0.40":
   version "0.0.40"
   resolved "https://registry.yarnpkg.com/@types/google.analytics/-/google.analytics-0.0.40.tgz#35526e9d78333423c430ade1c821ce54d0f0f850"
   integrity sha512-R3HpnLkqmKxhUAf8kIVvDVGJqPtaaZlW4yowNwjOZUTmYUQEgHh8Nh5wkSXKMroNAuQM8gbXJHmNbbgA8tdb7Q==
@@ -114,12 +114,12 @@ typescript@3.9.3:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.3.tgz#d3ac8883a97c26139e42df5e93eeece33d610b8a"
   integrity sha512-D/wqnB2xzNFIcoBG9FG8cXRDjiqSTbG2wd8DMZeQyJlP1vfTkIxH4GKveWaEBYySKIg+USu+E+EDIR47SqnaMQ==
 
-vue-router@^4.0.0-alpha.12:
+vue-router@4.0.0-alpha.12:
   version "4.0.0-alpha.12"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.0-alpha.12.tgz#cba18f0a7fcb577d97c8cd10072a9927313db510"
   integrity sha512-TJhbWHPZS1v259PKlZf+ljSob0U2RUii3HXQgrcFXsNmeWuqEYEh6trswHHr4+MQdXxHgonyYK28qhBjNhORkA==
 
-vue@^3.0.0-beta.14:
+vue@3.0.0-beta.14:
   version "3.0.0-beta.14"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.0.0-beta.14.tgz#d2c8739e00c4a4a06b519c14c57d204c350c980c"
   integrity sha512-0MH1g5O3zX8ijvZuiQTYFq3UwHxtj512I/wrMPQLVXwjqb+ILA+fooSpdz4xgUBBl5zN/K9xJIwbl23sv+Sn7A==
