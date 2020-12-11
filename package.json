@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@types/google.analytics": "^0.0.40",
-    "prettier": "2.0.5",
+    "prettier": "2.2.1",
     "typescript": "3.9.3",
     "vue": "^3.0.0-beta.14",
     "vue-router": "^4.0.0-alpha.12"
